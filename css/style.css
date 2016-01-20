@@ -1,0 +1,170 @@
+@import url(fonts/fonts.css);
+
+html, body {
+	margin:0;
+	padding:0; 
+	/*overflow: hidden;*/
+}
+
+.clear{
+	clear:both;	
+}
+.none{
+	display: none;
+}
+article{
+	width: 1080px;
+	/*height: 1920px;*/
+	margin: 0 auto;
+}
+article header{
+	width: inherit;
+	height: 180px;
+	background: url(../img/header.png) 0 50% no-repeat; 
+}
+article header img{
+	margin: 60px 0 0 60px;
+}
+article section{
+	width: inherit;
+	height: 240px;
+}
+article section div.counter{
+	width: 300px;
+	height: 210px;
+	float: left;
+	font:normal 30px geomanist_regularregular;
+	color: #ccc;
+	text-align: center;
+	padding: 30px 0 0 0;
+}
+article section div.price,
+article section div.total-price{
+	width: 780px;
+	height: 240px;
+	float: left;
+}
+article section div.price h1{
+	font:normal 80px Valkyrie-BoldCondensedItalic;
+	color: #ff6c00;
+	margin: 60px 60px 0 0;
+	text-align: right;
+}
+article section div.total-price h1{
+	font:normal 80px Valkyrie-BoldCondensedItalic;
+	color: #ff6c00;
+	margin: 80px 60px 0 0;
+	text-align: left;
+}
+article section div.price p{
+	font:normal 30px geomanist_regularregular;
+	color:#ccc;
+	text-align: right;
+	margin: 0 60px 0 0;
+}
+article section div.total-price p{
+	font:normal 30px geomanist_regularregular;
+	color:#ccc;
+	text-align: right;
+	margin: -85px 60px 0 0;
+}
+article section div.price p span{
+	font:normal 70px Valkyrie-BoldCondensedItalic;
+	color: #ff6c00;
+	margin: 0 30px 0 0;
+}
+
+article section div.total-price p span:nth-child(1){
+	font:normal 70px Valkyrie-BoldCondensedItalic;
+	color: #ff6c00;
+	margin: 0 20px 0 0;
+}
+
+article section div.total-price p span{
+	font:normal 70px Valkyrie-BoldCondensedItalic;
+	color: #ff6c00;
+	margin: 0 30px 0 0;
+}
+article main{
+	width: inherit;
+	height: 840px;
+}
+article main img{
+	width: 1000px;
+	height: 800px;
+	margin: 20px 0 20px 40px;
+}
+article div.static-zone{
+	width: inherit;
+	height: 120px;
+	color: #ff6c00;
+	font:normal 50px Valkyrie-BoldCondensedItalic;
+	float: left;
+}
+article div.static-zone h2{
+ 	margin: 20px 0 0 70px;
+}
+article aside{
+	width: 1000px;
+	height: 640px;
+	float: left;
+	padding: 20px 40px 0 40px;
+}
+article aside div {
+	width: 320px;
+	height: 580px;
+	float: left;
+}
+article aside div h3{
+	font:normal 40px Valkyrie-BoldCondensedItalic;
+	text-align: left;
+	color: #ff6c00;
+	margin: 350px 0 0 0;
+	float: left;
+}
+article aside div p{
+	font:normal 24px geomanist_regularregular;
+	color: #ccc;
+	margin-left:20px;
+	float: left;
+}
+
+article aside div p span{
+	font:normal 50px Valkyrie-BoldCondensedItalic;
+	color: #ff6c00;
+	margin-left:10px;
+}
+article aside div.img-2,
+article aside div.img-3{
+	margin-left:20px; 
+}
+article aside div.img-1{
+	background: url(../img/img_1.png) 0 0 no-repeat;
+}
+article aside div.img-2{
+	background: url(../img/img_2.png) 0 0 no-repeat;
+}
+article aside div.img-3{
+	background: url(../img/img_3.png) 0 0 no-repeat;
+}
+article aside div.img-1 img{
+	position: absolute;
+    top: 1562px;
+    left: 61px;
+}
+article aside div.img-2 img{
+	position: absolute;
+    top: 1562px;
+    left: 420px;
+}
+article aside div.img-3 img{
+	position: absolute;
+    top: 1559px;
+    left: 740px;
+}
+article footer{
+	width: inherit;
+	height: 240px;
+	background: #242424;
+	float: left;
+}
